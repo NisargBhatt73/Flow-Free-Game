@@ -42,6 +42,7 @@ This are the sailent features of the game that are provided to the user. Many of
 
 The game levels will be taken from folder ./levels.
 More levels can be added manually as '.txt' file.
+Also set the relative path at line no (502,631) of Game.java file according to your pc.
 
 An IDE or similar environment with Java Swing and Applet support.
 Run the file of path 'src/game/Game.java'
