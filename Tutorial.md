@@ -12,11 +12,14 @@ Java awt event listener
 
 For using the java applet we have to import the library “java.applet.*”. This will import all the methods available in the applet class. We have used the following functions of the applet class.
 drawRect() – this method is used to draw the rectangle at a particularposition  and of specified length and breadth. The syntax is as follow 
+                          
                           g.drawRect(int x, int y, int width, int height)
 fillRect()- This method is same as the above method but the difference is that it will color the given rectangle with the specified color.
+                         
                          g.FillRect(int x, int y, int width , int height)
 
 FillOval()- this method is used to draw a colored oval circumscribed in a  rectangle at a particular  position  and of specified length and breadth. The syntax is as follow 
+                          
                           g.FillOval(int x, int y, int width, int height)
 
 ## 1.3 Java awt event listener
@@ -24,10 +27,12 @@ When we are working with the java applet  we perform the many action on the appl
 
 
 mouseClicked()- This is an abstract method of an interface mouse action listener. This will give the coordinates where the mouse is clicked. The following methods is used to get the coordinates 
-                                g.getX()
-                                g.getY()   
+                               
+                               g.getX()
+                               g.getY()   
 where g is an  instance of Graphics class.
 mouseDragged()-  This is an abstract method of an interface mouse motion listener. This will give the coordinates when the mouse is dragged. The following methods is used to get the coordinates
+                                            
                                             g.getX()
                                             g.getY()   
 # 2. Making the Layout of game
@@ -44,8 +49,9 @@ here int x and int y indicates the starting coordinates of rectangle inthe apple
 Now after making the layout of the game we are ready to play the level 1 of the game. First we have select the particular dot from which we have to start dragging for that we have use the event listener.
 ## 3.2 Mouseclicked (Event e)
 This method is invoked whenever we clicked on the applet window. The following two method are there which give the coordinates of the cursor were we clicked.
-                                     g.getX()
-                                     g.getY()   
+                                    
+                                    g.getX()
+                                    g.getY()   
 where g is an  instance of Graphics class.
 After getting the  coordinate of the cell of the square grid we fetch which color dot is present and store it in a arraylist. This arraylist is two dimensional arraylist which contains the cell which are dragged of particular color.
 ## 3.3 Mousedragged(Event e) 
