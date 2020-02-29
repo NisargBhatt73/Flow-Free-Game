@@ -38,6 +38,14 @@ This are the sailent features of the game that are provided to the user. Many of
 
 **Figure 2 Connecting the dots**
 
+## 5. Running Instructions
+
+The game levels will be taken from folder ./levels.
+More levels can be added manually as '.txt' file.
+
+An IDE or similar environment with Java Swing and Applet support.
+Run the file of path 'src/game/Game.java'
+and the game can be played.
 
 
 
