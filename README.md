@@ -29,10 +29,14 @@ This are the sailent features of the game that are provided to the user. Many of
 
 ## 4. Snapshots of the game
 
-![Fig 1 Level Sample](/snap1.png)
+![Image not loaded!](/snap1.png)
+
+**Figre 1 Level Sample**
 
 
-![Fig 2 Connecting the dots](/snap2.png)
+![Image not loaded!](/snap2.png)
+
+**Figure 2 Connecting the dots**
 
 
 
